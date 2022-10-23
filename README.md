@@ -12,7 +12,7 @@
     - main: 메인 페이지 로직 컴포넌트
     - products: 상세 페이지 로직 컴포넌트
 - router: 라우터
-- apis: 백엔드 연동 api 메서드
+- api: 백엔드 연동 api 메서드
 - stores: 공통 스토어 경로
 - styles: 전역 css
 - unils: 필터 등의 유틸리티 함수
@@ -27,7 +27,7 @@
 - vuex
 
 ## JSON Server 기동
-- `json-server --watch db.json --port 4000`
+- `json-server --watch ./src/data/db.json --port 4000`
 - https://github.com/typicode/json-server
 - 웹에서 JSON Server 기동 https://my-json-server.typicode.com/
 
